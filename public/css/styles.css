@@ -1,19 +1,25 @@
 body {
     overflow: hidden;
 }
-.navbar-brand {
-    color: #155263;
-    padding: 13px 0;
+.h1 {
+    padding: 7px 0 5px;
     font-size: 1.75rem;
     font-family: 'Archivo Black';
 }
 
-.navbar-light .navbar-brand{
+.navbar-light .h1{
     color: white;
 }
 
 .navbar {
-    background-color: #1261A0;
+    /* background-color: #1261A0; */
+    /* background-color: #3366CC; */
+    background-color: #3b7dd8;
+}
+
+.logo {
+    width: 12%;
+    margin: 0 7px;
 }
 
 #backgroundVideo {
@@ -22,12 +28,12 @@ body {
     left: 0;
     width: 100%;
     z-index: -10;
-    filter: brightness(115%);
-
+    filter: brightness(110%);
+    filter: saturate(150%);
 }
 
 .search {
-    padding: 13rem 30% 11rem;
+    padding: 13rem 30% 10rem;
 }
 
 footer {
